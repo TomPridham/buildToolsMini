@@ -1,5 +1,5 @@
 "use strict";
-angular.module('app').service('service', function ($scope, $http, $q) {
+angular.module('app').service('service1', function ($scope, $http, $q) {
     this.myAsyncFunction = function(){
         var defer = $q.defer();
         $http.get('/someDataurl')

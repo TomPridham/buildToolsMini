@@ -1,5 +1,5 @@
 "use strict";
-angular.module('app').controller('whatever2', function ($state, service1, service2, service3) {
+angular.module('app').controller('whatever2', function ($scope, service1, service2, service3) {
     $state.whatever = ['some junk'];
 
     $state.myFunc = function(){

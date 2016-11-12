@@ -12,5 +12,10 @@
     "tools"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "ui-router": "^1.0.0-alpha.3"
+  }
 }
